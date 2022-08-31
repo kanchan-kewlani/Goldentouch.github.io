@@ -1,0 +1,108 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body, html{
+	overflow-x: hidden;
+}
+.navbar-nav
+{
+	margin-left: auto;
+}
+#navbar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient(to right, #E4BF3F, #E8BB20);
+	padding: 0;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	font-weight: 1000;
+	float: right;
+	text-align: left;
+}
+#banner
+{
+	background-image: linear-gradient(to right, #E4BF3F, #E8BB20);
+}
+#banner a
+{
+	text-decoration: none;
+	color: black;
+	margin:20px;
+	font-weight: 600;
+}
+.play-btn
+{
+	width: 45px;
+	margin:20px;
+}
+#service
+{
+	background-image: linear-gradient(to right, #E5E4E2, #D1D0CE);
+	padding: 80px 0;
+}
+#clean
+{
+	padding: 150px 0;
+}
+#contact
+{
+	background-image: linear-gradient(to right, #E4BF3F, #E8BB20);
+}
+#contact a:hover{
+	color: black;
+	transition: transform .4s ease-in-out, opacity .4s ease-in-out;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.relative
+{
+	margin-top: 50px;
+	position: relative;
+	background-color: #E4BF3F;
+	width: 100%;
+	height: 550px;
+}
+.absolute
+{
+	 height: 450px; /* Set your own height: percents, ems, whatever! */
+ width: 50%; /* Set your own width: percents, ems, whatever! */
+ overflow: auto; /* Recommended in case content is larger than the container */
+ margin: auto; /* Center the item vertically & horizontally */
+ position: absolute; 
+ top: 0; left: 0; bottom: 0; right: 0;
+ background-color: black;
+}
+@media screen and (max-width: 800px){
+	#email{margin-top: 20px;}
+	#select{margin-top: 20px;}
+	#contact-form{margin-top: 50px;}
+	#about{margin-top: 50px;}
+	#choose{margin-top: 50px;}
+	#progress-bar{margin-top: 50px;}
+	#services1{margin-top: 50px;}
+	#services2{margin-top: 50px;}
+	#snbutton{margin-top: 20px;}
+}
